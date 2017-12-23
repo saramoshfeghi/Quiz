@@ -1,65 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="17B1003" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3zQ-r1-iOV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3zQ-r1-iOV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="How_well_do_you_know_Sara" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHX-CU-fAs">
-                                <state key="normal" title="Easy Mode"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1V-mG-8C0">
-                                <state key="normal" title="Hard Mode"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sara Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5k-B2-DhO">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Hu0-mq-01t">
-                                <frame key="frameInset" minX="2" minY="2" width="537" height="1200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="v1V-mG-8C0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="51E-6j-p3Z"/>
-                            <constraint firstItem="v1V-mG-8C0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="134" id="7Bf-q1-7bS"/>
-                            <constraint firstItem="u5k-B2-DhO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="GuF-WE-yTQ"/>
-                            <constraint firstItem="v1V-mG-8C0" firstAttribute="top" secondItem="hHX-CU-fAs" secondAttribute="bottom" constant="19" id="OcD-He-HL7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="v1V-mG-8C0" secondAttribute="trailing" constant="133" id="RjD-oJ-19b"/>
-                            <constraint firstItem="v1V-mG-8C0" firstAttribute="top" secondItem="hHX-CU-fAs" secondAttribute="bottom" constant="19" id="Trk-1d-c0c"/>
-                            <constraint firstItem="hHX-CU-fAs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="135" id="UR5-PS-k9y"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v1V-mG-8C0" secondAttribute="bottom" constant="488" id="VuZ-oi-GRc"/>
-                            <constraint firstItem="hHX-CU-fAs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="Xb8-nQ-FFI"/>
-                            <constraint firstItem="hHX-CU-fAs" firstAttribute="top" secondItem="u5k-B2-DhO" secondAttribute="bottom" constant="51" id="cII-1o-PXD"/>
-                            <constraint firstItem="u5k-B2-DhO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="1" id="mzn-yK-DEP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hHX-CU-fAs" secondAttribute="trailing" constant="133" id="tdS-bt-Ibz"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-244" y="138"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="grI-hf-aci">
             <objects>
-                <viewController id="3zQ-r1-iOV" customClass="ViewController" customModule="How_well_do_you_know_Sara" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3zQ-r1-iOV" customClass="ViewController" customModule="Sara_Quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g0n-oj-9Dq"/>
                         <viewControllerLayoutGuide type="bottom" id="OSI-Ls-AIr"/>
@@ -69,38 +23,56 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OiW-JV-32b">
-                                <frame key="frameInset" width="619" height="1064"/>
+                                <rect key="frame" x="-39" y="-14" width="619" height="1064"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bh-gn-ekK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bh-gn-ekK">
+                                <rect key="frame" x="16" y="99" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bJr-0e-cas">
+                                <rect key="frame" x="16" y="320" width="343" height="30"/>
                                 <state key="normal" title="A"/>
                                 <connections>
                                     <action selector="checkAnswer:" destination="3zQ-r1-iOV" eventType="touchUpInside" id="NhR-1j-osr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgD-aR-9zN">
+                                <rect key="frame" x="16" y="397" width="343" height="30"/>
                                 <state key="normal" title="B"/>
                                 <connections>
                                     <action selector="checkAnswer:" destination="3zQ-r1-iOV" eventType="touchUpInside" id="2aA-jT-WDN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7c-8j-pEU">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7c-8j-pEU">
+                                <rect key="frame" x="16" y="477" width="343" height="30"/>
                                 <state key="normal" title="C"/>
                                 <connections>
                                     <action selector="checkAnswer:" destination="3zQ-r1-iOV" eventType="touchUpInside" id="U7Z-lE-kpF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1P-xb-EXm">
+                                <rect key="frame" x="16" y="559" width="343" height="30"/>
                                 <state key="normal" title="D"/>
                                 <connections>
                                     <action selector="checkAnswer:" destination="3zQ-r1-iOV" eventType="touchUpInside" id="hBR-Qe-GZE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="correct answers= " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOs-zr-Fjw" userLabel="correct answers">
+                                <rect key="frame" x="16" y="58" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sara Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idh-CA-iUH">
+                                <rect key="frame" x="161" y="28" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -109,23 +81,28 @@
                             <constraint firstItem="q7c-8j-pEU" firstAttribute="top" secondItem="DgD-aR-9zN" secondAttribute="bottom" constant="50" id="8dC-zH-4sA"/>
                             <constraint firstItem="DgD-aR-9zN" firstAttribute="top" secondItem="bJr-0e-cas" secondAttribute="bottom" constant="47.5" id="8th-6W-IBl"/>
                             <constraint firstItem="DgD-aR-9zN" firstAttribute="centerX" secondItem="akK-76-izK" secondAttribute="centerX" id="8u3-g0-bws"/>
+                            <constraint firstItem="0Bh-gn-ekK" firstAttribute="top" secondItem="akK-76-izK" secondAttribute="top" constant="99" id="9IW-gG-aSb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="W1P-xb-EXm" secondAttribute="trailing" id="A6l-HA-EoW"/>
                             <constraint firstItem="q7c-8j-pEU" firstAttribute="top" secondItem="DgD-aR-9zN" secondAttribute="bottom" constant="50" id="BOL-5J-J61"/>
                             <constraint firstItem="bJr-0e-cas" firstAttribute="centerX" secondItem="akK-76-izK" secondAttribute="centerX" id="COa-zc-6cb"/>
                             <constraint firstItem="W1P-xb-EXm" firstAttribute="leading" secondItem="akK-76-izK" secondAttribute="leadingMargin" id="DBh-cP-JYi"/>
-                            <constraint firstItem="bJr-0e-cas" firstAttribute="top" secondItem="0Bh-gn-ekK" secondAttribute="bottom" constant="234.5" id="DPy-Sh-9ho"/>
+                            <constraint firstItem="0Bh-gn-ekK" firstAttribute="centerX" secondItem="bJr-0e-cas" secondAttribute="centerX" id="JvT-Dd-uWd"/>
                             <constraint firstItem="DgD-aR-9zN" firstAttribute="top" secondItem="bJr-0e-cas" secondAttribute="bottom" constant="47.5" id="Lnb-MY-kat"/>
                             <constraint firstAttribute="trailingMargin" secondItem="q7c-8j-pEU" secondAttribute="trailing" id="Mgq-Vj-iD2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DgD-aR-9zN" secondAttribute="trailing" id="Qco-sU-zC9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Bh-gn-ekK" secondAttribute="trailing" id="SAD-XG-7GP"/>
                             <constraint firstItem="DgD-aR-9zN" firstAttribute="leading" secondItem="akK-76-izK" secondAttribute="leadingMargin" id="cA7-eV-AZ3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NOs-zr-Fjw" secondAttribute="trailing" id="cBJ-BM-6dx"/>
                             <constraint firstItem="W1P-xb-EXm" firstAttribute="top" secondItem="q7c-8j-pEU" secondAttribute="bottom" constant="52" id="f6N-r1-5ua"/>
                             <constraint firstItem="bJr-0e-cas" firstAttribute="leading" secondItem="akK-76-izK" secondAttribute="leadingMargin" id="g3Q-h1-4pt"/>
+                            <constraint firstItem="NOs-zr-Fjw" firstAttribute="leading" secondItem="akK-76-izK" secondAttribute="leadingMargin" id="iZk-kE-CIi"/>
                             <constraint firstItem="W1P-xb-EXm" firstAttribute="centerX" secondItem="akK-76-izK" secondAttribute="centerX" id="q1z-Og-e5O"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bJr-0e-cas" secondAttribute="trailing" id="t9G-Lv-gkp"/>
-                            <constraint firstItem="0Bh-gn-ekK" firstAttribute="centerX" secondItem="akK-76-izK" secondAttribute="centerX" constant="1" id="u6o-PA-tv1"/>
                             <constraint firstItem="OSI-Ls-AIr" firstAttribute="top" secondItem="W1P-xb-EXm" secondAttribute="bottom" constant="78" id="v6O-WO-Idl"/>
+                            <constraint firstItem="0Bh-gn-ekK" firstAttribute="leading" secondItem="akK-76-izK" secondAttribute="leadingMargin" id="vcK-9O-eOV"/>
                             <constraint firstItem="W1P-xb-EXm" firstAttribute="top" secondItem="q7c-8j-pEU" secondAttribute="bottom" constant="52" id="wWW-Gk-ams"/>
                             <constraint firstItem="q7c-8j-pEU" firstAttribute="centerX" secondItem="akK-76-izK" secondAttribute="centerX" id="xEt-id-Zt5"/>
+                            <constraint firstItem="0Bh-gn-ekK" firstAttribute="top" secondItem="NOs-zr-Fjw" secondAttribute="bottom" constant="20" id="zT0-Rv-C5t"/>
                         </constraints>
                     </view>
                     <connections>
@@ -133,12 +110,13 @@
                         <outlet property="buttonB" destination="DgD-aR-9zN" id="v9p-2U-NBf"/>
                         <outlet property="buttonC" destination="q7c-8j-pEU" id="Lar-F2-s5j"/>
                         <outlet property="buttonD" destination="W1P-xb-EXm" id="XU5-8a-XAm"/>
+                        <outlet property="correctanswersLabel" destination="NOs-zr-Fjw" id="tjA-St-dWH"/>
                         <outlet property="questionLabel" destination="0Bh-gn-ekK" id="3XH-Ud-gvb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CiH-23-4c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="160"/>
+            <point key="canvasLocation" x="572" y="159.67016491754123"/>
         </scene>
     </scenes>
     <resources>

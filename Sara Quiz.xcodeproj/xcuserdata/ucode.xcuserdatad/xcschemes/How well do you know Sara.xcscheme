@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADB4B07B1F84524B005BF959"
-               BuildableName = "How well do you know Sara.app"
-               BlueprintName = "How well do you know Sara"
-               ReferencedContainer = "container:How well do you know Sara.xcodeproj">
+               BuildableName = "Sara Quiz.app"
+               BlueprintName = "Sara Quiz"
+               ReferencedContainer = "container:Sara Quiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADB4B07B1F84524B005BF959"
-            BuildableName = "How well do you know Sara.app"
-            BlueprintName = "How well do you know Sara"
-            ReferencedContainer = "container:How well do you know Sara.xcodeproj">
+            BuildableName = "Sara Quiz.app"
+            BlueprintName = "Sara Quiz"
+            ReferencedContainer = "container:Sara Quiz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADB4B07B1F84524B005BF959"
-            BuildableName = "How well do you know Sara.app"
-            BlueprintName = "How well do you know Sara"
-            ReferencedContainer = "container:How well do you know Sara.xcodeproj">
+            BuildableName = "Sara Quiz.app"
+            BlueprintName = "Sara Quiz"
+            ReferencedContainer = "container:Sara Quiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADB4B07B1F84524B005BF959"
-            BuildableName = "How well do you know Sara.app"
-            BlueprintName = "How well do you know Sara"
-            ReferencedContainer = "container:How well do you know Sara.xcodeproj">
+            BuildableName = "Sara Quiz.app"
+            BlueprintName = "Sara Quiz"
+            ReferencedContainer = "container:Sara Quiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD047E651FE9DB76004F3FE6 /* front cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD047E641FE9DB76004F3FE6 /* front cover.jpg */; };
 		AD593A4C1FBBB48D00A774ED /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD593A4B1FBBB48D00A774ED /* bg.jpg */; };
 		AD77C0F41FB27DD9008B5AEB /* wavesbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD77C0F31FB27DD9008B5AEB /* wavesbackground.jpg */; };
 		AD77C0F61FB27DFE008B5AEB /* background for quiz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD77C0F51FB27DFE008B5AEB /* background for quiz.jpg */; };
@@ -19,10 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD047E641FE9DB76004F3FE6 /* front cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front cover.jpg"; sourceTree = "<group>"; };
 		AD593A4B1FBBB48D00A774ED /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		AD77C0F31FB27DD9008B5AEB /* wavesbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wavesbackground.jpg; sourceTree = "<group>"; };
 		AD77C0F51FB27DFE008B5AEB /* background for quiz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background for quiz.jpg"; sourceTree = "<group>"; };
-		ADB4B07C1F84524B005BF959 /* How well do you know Sara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How well do you know Sara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB4B07C1F84524B005BF959 /* Sara Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sara Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB4B07F1F84524B005BF959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB4B0811F84524B005BF959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB4B0841F84524B005BF959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		ADB4B07D1F84524B005BF959 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB4B07C1F84524B005BF959 /* How well do you know Sara.app */,
+				ADB4B07C1F84524B005BF959 /* Sara Quiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +68,7 @@
 				ADB4B07F1F84524B005BF959 /* AppDelegate.swift */,
 				ADB4B0831F84524B005BF959 /* Main.storyboard */,
 				AD77C0F51FB27DFE008B5AEB /* background for quiz.jpg */,
+				AD047E641FE9DB76004F3FE6 /* front cover.jpg */,
 				AD593A4B1FBBB48D00A774ED /* bg.jpg */,
 				AD77C0F31FB27DD9008B5AEB /* wavesbackground.jpg */,
 				ADB4B0811F84524B005BF959 /* ViewController.swift */,
@@ -79,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB4B07B1F84524B005BF959 /* How well do you know Sara */ = {
+		ADB4B07B1F84524B005BF959 /* Sara Quiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB4B08E1F84524B005BF959 /* Build configuration list for PBXNativeTarget "How well do you know Sara" */;
+			buildConfigurationList = ADB4B08E1F84524B005BF959 /* Build configuration list for PBXNativeTarget "Sara Quiz" */;
 			buildPhases = (
 				ADB4B0781F84524B005BF959 /* Sources */,
 				ADB4B0791F84524B005BF959 /* Frameworks */,
@@ -91,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "How well do you know Sara";
+			name = "Sara Quiz";
 			productName = "How well do you know Sara";
-			productReference = ADB4B07C1F84524B005BF959 /* How well do you know Sara.app */;
+			productReference = ADB4B07C1F84524B005BF959 /* Sara Quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,11 +111,12 @@
 				TargetAttributes = {
 					ADB4B07B1F84524B005BF959 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GN8BN73VDM;
 						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = ADB4B0771F84524B005BF959 /* Build configuration list for PBXProject "How well do you know Sara" */;
+			buildConfigurationList = ADB4B0771F84524B005BF959 /* Build configuration list for PBXProject "Sara Quiz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -125,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB4B07B1F84524B005BF959 /* How well do you know Sara */,
+				ADB4B07B1F84524B005BF959 /* Sara Quiz */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +145,7 @@
 				ADB4B08A1F84524B005BF959 /* LaunchScreen.storyboard in Resources */,
 				ADB4B0871F84524B005BF959 /* Assets.xcassets in Resources */,
 				AD77C0F61FB27DFE008B5AEB /* background for quiz.jpg in Resources */,
+				AD047E651FE9DB76004F3FE6 /* front cover.jpg in Resources */,
 				ADB4B0851F84524B005BF959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GN8BN73VDM;
 				INFOPLIST_FILE = "How well do you know Sara/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mexican-food.How-well-do-you-know-Sara";
@@ -280,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GN8BN73VDM;
 				INFOPLIST_FILE = "How well do you know Sara/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mexican-food.How-well-do-you-know-Sara";
@@ -291,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB4B0771F84524B005BF959 /* Build configuration list for PBXProject "How well do you know Sara" */ = {
+		ADB4B0771F84524B005BF959 /* Build configuration list for PBXProject "Sara Quiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB4B08C1F84524B005BF959 /* Debug */,
@@ -300,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB4B08E1F84524B005BF959 /* Build configuration list for PBXNativeTarget "How well do you know Sara" */ = {
+		ADB4B08E1F84524B005BF959 /* Build configuration list for PBXNativeTarget "Sara Quiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB4B08F1F84524B005BF959 /* Debug */,
